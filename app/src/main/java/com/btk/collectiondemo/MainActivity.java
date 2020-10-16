@@ -47,7 +47,6 @@ public class MainActivity extends AppCompatActivity {
         User user5 = new User(5,"def");
         User user6 = new User(6,"mbc");
 
-
         userTreeMap.put(user1,1);
         userTreeMap.put(user2,2);
         userTreeMap.put(user3,4);
@@ -55,10 +54,8 @@ public class MainActivity extends AppCompatActivity {
         userTreeMap.put(user4,7);
         userTreeMap.put(user5,12);
 
-
         for(Map.Entry entry : userTreeMap.entrySet()) {
             Log.v("===","value:"+entry.getValue());
         }
-
     }
 }
